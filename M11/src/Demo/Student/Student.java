@@ -1,4 +1,4 @@
-package Demo;
+package Demo.Student;
 
 public class Student {
       String name;

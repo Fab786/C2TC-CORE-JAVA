@@ -1,4 +1,4 @@
-package Demo;
+package Demo.Abstract;
 
 public class Abstract_class extends Base {
 
