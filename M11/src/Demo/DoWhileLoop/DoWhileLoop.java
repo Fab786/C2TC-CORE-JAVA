@@ -1,4 +1,4 @@
-package DoWhileLoop;
+package Demo.DoWhileLoop;
 
 public class DoWhileLoop {
 

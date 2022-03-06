@@ -1,4 +1,4 @@
-package Constructor;
+package Demo.Constructor;
 
 public class Constructor {
 

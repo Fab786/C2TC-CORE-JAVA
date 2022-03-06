@@ -1,4 +1,4 @@
-package SwitchCase;
+package Demo.SwitchCase;
 
 public class SwitchCase {
 
