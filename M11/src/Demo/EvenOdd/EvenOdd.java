@@ -19,7 +19,7 @@ public class EvenOdd {
 			
 		}else
 		{
-			System.out.println(n + " is Odd")
+			System.out.println(n + " is Odd");
 		}
 
 		
