@@ -1,4 +1,4 @@
-package Demo.WhileLoop;
+package Demo.WhileLoops;
 
 public class WhileLoop {
 
