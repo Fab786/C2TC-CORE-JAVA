@@ -10,8 +10,6 @@ public class Abstract_class extends Base {
 	
 	}	
 	public static void main(String[] args) {
-
-		Abstract_class obj1=new Abstract_class("Values passed through the class constructor");
 		
 		}
 		

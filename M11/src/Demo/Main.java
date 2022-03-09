@@ -4,14 +4,40 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		int number=100;
-		System.out.print("List of even numbers from 1 to"+number+":");
-		for(int i=1;i<=number;i++)
+		
+		int x = 2;
+		
+/*		switch(x)
 		{
-			if (i%2==0)
-			{
-				System.out.print(i+"");
-			}
+		
+		case 'a':
+			System.out.println("a");
+			break;
+			
+		case 97:
+			System.out.println("97");
+			
+	*/
+		
+		switch(x)
+		{
+		case 0:
+			System.out.println(0);
+			break;
+			
+		case 1:
+			System.out.println(1);
+			
+			
+		case 2:
+			System.out.println(2);
+			
+		default:
+			
+			System.out.println("default statement");
+				
+			
+		
 		}
 	}
 
