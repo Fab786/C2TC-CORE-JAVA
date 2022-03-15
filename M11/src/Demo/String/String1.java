@@ -3,7 +3,7 @@ package Demo.String;
 public class String1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 String s = new String(" Faraz ");
 System.out.println(s.length());
 System.out.println(s.toLowerCase());

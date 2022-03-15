@@ -3,42 +3,30 @@ package Demo;
 public class Main {
 
 	public static void main(String[] args) {
+		/*	int[][] x=new int[2][3]; //2D ARRAY
 		
+		System.out.println(x);
 		
-		int x = 2;
+		System.out.println(x[0]);
 		
-/*		switch(x)
-		{
+		System.out.println(x[0][0]);
 		
-		case 'a':
-			System.out.println("a");
-			break;
-			
-		case 97:
-			System.out.println("97");
-			
-	*/
+		System.out.println(x[0][1]);
 		
-		switch(x)
-		{
-		case 0:
-			System.out.println(0);
-			break;
-			
-		case 1:
-			System.out.println(1);
-			
-			
-		case 2:
-			System.out.println(2);
-			
-		default:
-			
-			System.out.println("default statement");
-				
-			
+		System.out.println(x[1][0]);
 		
+		System.out.println(x[1][1]);
+*/
+	
+	String a="Java";
+	int b=10,c=20,d=30;
+	
+	System.out.println(a+b+c+d);
+	System.out.println(b+c+d+a);
+	System.out.println(b+c+a+d);
+	System.out.println(b+a+c+d);
+	
 		}
-	}
+	
 
 }
