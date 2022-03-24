@@ -1,32 +1,34 @@
 package Demo;
+//package myPack;
 
-public class Main {
+public class Main{
+	
+	public void m()
+	{
+		System.out.println("No arguments");
+	}
+	
+	public void m(int i)
+	{
+		System.out.println("Int arguments");
+	}
+	
+	public void m(double d)
+	{
+		System.out.println("Double arguments");
+	}
+	
+	public static void main(String[] args){
 
-	public static void main(String[] args) {
-		/*	int[][] x=new int[2][3]; //2D ARRAY
+		Main obj=new Main();
+		obj.m();
+		obj.m(2);
+		obj.m(4.67);
 		
-		System.out.println(x);
-		
-		System.out.println(x[0]);
-		
-		System.out.println(x[0][0]);
-		
-		System.out.println(x[0][1]);
-		
-		System.out.println(x[1][0]);
-		
-		System.out.println(x[1][1]);
-*/
-	
-	String a="Java";
-	int b=10,c=20,d=30;
-	
-	System.out.println(a+b+c+d);
-	System.out.println(b+c+d+a);
-	System.out.println(b+c+a+d);
-	System.out.println(b+a+c+d);
-	
-		}
-	
-
+		obj.m('a');
+		obj.m(2);
+		obj.m(10l);
+		obj.m(5.6f);
+	}	
 }
+
